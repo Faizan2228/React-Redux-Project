@@ -7,7 +7,7 @@ const HooksCakeContainers = () => {
     const dispatch = useDispatch()
   return (
     <div>
-        <h2>Num of cakes - {numOfCakes} </h2>
+        <h2>Num of cake - {numOfCakes} </h2>
         <button className='text-3xl font-serif bg-slate-950 underline' onClick={() => dispatch(buyCake())}>Buy cake</button>
     </div>
   )
